@@ -1,0 +1,49 @@
+.html, .body {
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.top {
+    background-color: rgb(146, 141, 141);
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid .submid {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+    
+
+}
+
+.card {
+    border: gray solid 0.5px;
+    border-radius: 10px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.py-5 {
+    background-color: rgb(241, 239, 239);
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
